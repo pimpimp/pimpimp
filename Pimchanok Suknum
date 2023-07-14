@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pimchanok Suknum</title>
+</head>
+<body>
+
+    <div id = "Home">
+        <a href="#video">ไปที่หัวข้อ 1 | การเล่นวิดีโอ</a><br>
+
+        <a href="#audio">ไปที่หัวข้อ 2 | การเล่นเสียง</a><br>
+
+        <a href="#form">ไปที่หัวข้อ 3 | การกรอกข้อมูล</a><br>
+
+        <a href="#table">ไปที่หัวข้อ 4 | ตารางเรียน</a><br>
+
+        <a href="#profile">ผู้จัดทำ</a><br>
+
+
+    </div>
+
+    </div>
+    <div>
+        <div id="video">
+        <h2>หัวข้อที่ 1</h2>
+        <video controls autoplay loop muted>
+            <source src="under the sea.mp4" type="video/mp4">
+        </video>
+        <br>
+        <a href="#Home">กลับหน้าแรก</a><br>
+
+    </div>
+
+    <div>
+        <div id="audio"></div>
+        <h2>หัวข้อที่ 2</h2>
+        <audio controls autoplay loop>
+            <source src="Vanessas Trick.mp3" type="audio/mp3">
+        </audio>
+        <br>
+        <a href="#Home">กลับหน้าแรก</a><br>
+    </div>
+
+    <div>
+        <div id="form"></div>
+        <h2>หัวข้อที่ 3</h2>
+        <p><strong>ชื่อ ชื่อ-นามสกุล:</strong></p>
+            <input type="ชื่อ-นามสกุล" class="input input-html5-date"/>
+    <div>
+        <p><strong>กำลังศึกษาอยู่ระดับชั้นมัธยมศึกษาปีที่:</strong></p>
+            <input type="กำลังศึกษาอยู่ระดับชั้นมัธยมศึกษาปีที่" class="input input-html5-date"/>
+    <div>
+        <p><strong>เพศ:</strong></p>
+            <input type="เพศ" class="input input-html5-date"/>
+    <div>
+        <p><strong>Username:</strong></p>
+            <input type="Username" class="input input-html5-date"/>        
+    <div>
+        <p><strong>Password</strong>:</strong></p>
+            <input type="Password" class="input input-html5-date"/>
+    <div>
+        <p><strong>menu submit:</strong></p>
+            <input type="menu submit" class="input input-html5-date"/>
+    <div>
+        <a href="#Home">กลับหน้าแรก</a><br>
+
+    </div>
+
+    <div>
+        <div id="table"></div>
+        <h2>หัวข้อที่ 4</h2>
+        <table border="2">
+            <thead>
+                <th>คาบที่</th>
+                <th>0</th>
+                <th>ๅ</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>10</th>
+            </thead>
+
+            <tr>
+                <th>07.30-08.20</th>
+                <th>08.20-09.10</th>
+                <th>09.10-10.00</th>
+                <th>10.00-10.50</th>
+                <th>10.50-11.40</th>
+                <th>11.40-12.30</th>
+                <th>12.30-13.20</th>
+                <th>13.20-14.10</th>
+                <th>14.10-15.00</th>
+                <th>15.00-15.50</th>
+                <th>15.50-16.40</th>
+                <th>16.40-17.30</th>
+            </tr>
+
+            <tr>
+                <th>จันทร์</th>
+                <th>โฮมรูม</th>
+                <th>ศิลปะ</th>
+                <th>พลศึกษา</th>
+                <th>คณิตเพิ่มเติม</th>
+                <th>ภาษาอังกฤษ</th>
+                <th>ภาษาไทย</th>
+                <th>พักกลางวัน</th>
+                <th>ฟิสิกส์</th>
+                <th>ภาษาอังกฤษ</th>
+                <th>จิตอาสา</th>
+            </tr>
+            <tr>
+                <th>อังคาร</th>
+                <th>โฮมรูม</th>
+                <th>ภาษาอังกฤษ</th>
+                <th>แนะแนว</th>
+                <th>สังคม</th>
+                <th>เคมี</th>
+                <th>เคมี</th>
+                <th>พักกลางวัน</th>
+                <th>ชีวะ</th>
+                <th>ชีวะ</th>
+            </tr>
+            <tr>
+                <th>พุธ</th>
+                <th>โฮมรูม</th>
+                <th>ฟิสิกส์</th>
+                <th>ฟิสิกส์</th>
+                <th>ชีวะ</th>
+                <th>คณิตพื้นฐาน</th>
+                <th>คณิตเพิ่มเติม</th>
+                <th>พักกลางวัน</th>
+                <th>IS</th>
+                <th>IS</th>
+            </tr>
+            <tr>
+                <th>พฤหัสบดี</th>
+                <th>โฮมรูม</th>
+                <th>กิจกรรมโรงเรียนวิถีพุทธ</th>
+                <th>สังคม</th>
+                <th>ภาษาอังกฤษ</th>
+                <th>เคมี</th>
+                <th>ส่งเสริมวิชาการ</th>
+                <th>พักกลางวัน</th>
+                <th>เสรีภาษาอาเซียน</th>
+                <th>คณิตเพิ่มเติม</th>
+            </tr>
+            <tr>
+                <th>ศุกร์</th>
+                <th>โฮมรูม</th>
+                <th>คอมพิวเตอร์</th>
+                <th>คอมพิวเตอร์</th>
+                <th>ฟิสิกส์</th>
+                <th>คณิตเพิ่มเติม</th>
+                <th>คณิตพื้นฐาน</th>
+                <th>พักกลางวัน</th>
+                <th>ภาษาไทย</th>
+                <th>ภาษาอังกฤษ</th>
+            </tr>
+        </table>
+        <a href="#Home">กลับหน้าแรก</a><br>
+
+    </div>
+    <div id="profile"></div>
+        <p>ผู้จัดทำ : นางสาวพิมพ์ชนก สุขนุ่ม ม.5/10 เลขที่ 31</p>
+        <a target="_blank" href="https://www.facebook.com/pimchanok.suknum/">Facebook</a>
+        <br>
+        <a target="_blank" href="https://www.instagram.com/_niang.n_/">Instagram</a>
+        
+    <div>
+        <a href="#Home">กลับหน้าแรก</a><br>
+    </div>
+
+</body>
+</html>
